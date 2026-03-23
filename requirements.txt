@@ -1,0 +1,13 @@
+# requirements.txt — Sui et al. (2024) Ensemble Stock Prediction
+# Tested on Python 3.10+
+
+tensorflow>=2.15.0
+lightgbm>=4.0.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+numpy>=1.26.0
+yfinance>=0.2.40
+ta>=0.11.0           # technical analysis indicators
+pyarrow>=14.0.0      # parquet caching
+matplotlib>=3.8.0    # optional plotting
+seaborn>=0.13.0      # optional plotting
